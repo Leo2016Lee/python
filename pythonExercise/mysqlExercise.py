@@ -14,7 +14,7 @@ try:
         'database': 'historical_alarm_record',
         'charset': 'utf8'
     }
-    # 连接数据库
+    #     连接数据库
     # con=mysql.connector.connect(host='localhost',port=3306,user='root',
     #                         password='root',database='test',charset='utf8')
     con = mysql.connector.connect(**config)
